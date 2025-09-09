@@ -62,7 +62,7 @@ class _NavBarState extends State<NavBar> {
               ),
               BottomNavigationBarItem(
                 icon: Icon(Icons.account_circle_rounded),
-                label: 'User 3',
+                label: 'Syahputra Winata',
               ),
             ],
             currentIndex: _selectedIndex,

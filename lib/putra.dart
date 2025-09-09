@@ -55,11 +55,9 @@ class PutraProfile extends StatelessWidget {
                         ),
                         child: ClipOval(
                           child: Container(
-                            color: Colors.teal.shade300,
-                            child: Icon(
-                              Icons.person,
-                              size: 60,
-                              color: Colors.white,
+                            color: Color.fromARGB(255, 154, 3, 3),
+                            child: Image.asset(
+                              'assets/images/FotoNameTag.jpg',
                             ),
                           ),
                         ),
@@ -67,7 +65,7 @@ class PutraProfile extends StatelessWidget {
                       SizedBox(height: 15),
                       
                       Text(
-                        'Sinta Dewi Lestari',
+                        'Syahputra Winata',
                         style: TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.bold,
@@ -101,8 +99,8 @@ class PutraProfile extends StatelessWidget {
                   icon: Icons.school_rounded,
                   color: Colors.orange,
                   children: [
-                    _buildInfoCard(Icons.class_rounded, 'Rombel', 'XI TKJ 2'),
-                    _buildInfoCard(Icons.location_city_rounded, 'Rayon', 'Cibiru'),
+                    _buildInfoCard(Icons.class_rounded, 'Rombel', 'PPLG XII-4'),
+                    _buildInfoCard(Icons.location_city_rounded, 'Rayon', 'Cibedug 1'),
                   ],
                 ),
                 
@@ -113,9 +111,9 @@ class PutraProfile extends StatelessWidget {
                   icon: Icons.contact_phone_rounded,
                   color: Colors.pink,
                   children: [
-                    _buildInfoCard(Icons.email_rounded, 'Email', 'sinta.dewi@student.com'),
-                    _buildInfoCard(Icons.phone_rounded, 'No. Telepon', '+62 821-9876-5432'),
-                    _buildInfoCard(Icons.location_on_rounded, 'Alamat', 'Jl. Sudirman No. 25\nCimahi, Jawa Barat\n40512'),
+                    _buildInfoCard(Icons.email_rounded, 'Email', 'sputrawinata23@gmail.com'),
+                    _buildInfoCard(Icons.phone_rounded, 'No. Telepon', '+62 896-3699-8239'),
+                    _buildInfoCard(Icons.location_on_rounded, 'Alamat', 'Jl. Veteran III Desa Banjarwaru\nBogor, Jawa Barat\n16720'),
                   ],
                 ),
               ],
